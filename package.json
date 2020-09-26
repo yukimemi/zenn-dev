@@ -1,0 +1,11 @@
+{
+  "name": "zenn-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yukimemi/zenn-dev",
+  "author": "yukimemi <yukimemi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.35"
+  }
+}
