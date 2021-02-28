@@ -6,6 +6,6 @@
   "author": "yukimemi <yukimemi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "zenn-cli": "^0.1.49"
+    "zenn-cli": "^0.1.74"
   }
 }
