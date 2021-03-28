@@ -36,6 +36,11 @@ repo = 'yukimemi/dps-asyngrep'
 hook_add = '''
 " let g:asyngrep_debug = v:true
 " let g:asyngrep_cfg_path = "~/.asyngrep.toml"
+
+nnoremap <space>ss <cmd>Agp<cr>
+nnoremap <space>sr <cmd>Agp --tool=ripgrep<cr>
+nnoremap <space>sp <cmd>Agp --tool=pt<cr>
+nnoremap <space>sj <cmd>Agp --tool=jvgrep<cr>
 '''
 ```
 
