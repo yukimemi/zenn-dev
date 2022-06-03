@@ -39,6 +39,8 @@ let g:autobackup_write_echo = v:true
 let g:autobackup_dir = '~/.cache/autobackup'
 " 自動保存を行うイベント
 let g:autobackup_events = ["CursorHold", "CursorHoldI", "BufWritePre", "BufRead"]
+" 自動保存を行わないファイルタイプ
+let g:autobackup_blacklist_filetypes = ["log", "csv"]
 '''
 ```
 
