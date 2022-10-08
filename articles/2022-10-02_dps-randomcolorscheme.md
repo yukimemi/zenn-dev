@@ -21,6 +21,22 @@ https://github.com/yukimemi/dps-randomcolorscheme
 デフォルトだと起動時、及び 3,600 秒 (1時間) ごとに変更を行います。
 
 
+## コマンド
+
+コマンドでも colorscheme の変更、及び有効化 / 無効化ができます。
+
+```vim
+" colorscheme 変更
+:ChangeColorscheme
+
+" 無効化
+:DisableRandomColorscheme
+
+" 有効化
+:EnableRandomColorscheme
+```
+
+
 ## インストールと設定
 
 インストールは [dein.vim](https://github.com/Shougo/dein.vim) だとこんな感じ。
@@ -46,10 +62,18 @@ let g:randomcolorscheme_enables = ["morning", "ron"]
 " 使用しない colorscheme (Default: [])
 let g:randomcolorscheme_disables = ["evening", "default"]
 
+" 使用する colorscheme を正規表現で指定 (Default: "")
+let g:randomcolorscheme_match = "^base16"
+" 使用しない colorscheme を正規表現で指定 (Default: "")
+let g:randomcolorscheme_notmatch = "light$"
+
 " colorscheme 変更するインターバル (秒) (Default: 3600)
 let g:randomcolorscheme_interval = 600
 " colorscheme 変更するイベント (Default: [])
 let g:randomcolorscheme_events = ["CursorHold", "FocusLost", "BufWritePost"]
+
+" colorscheme コマンドで colorscheme 変更後にセットする background (dark / light を指定する)"
+let g:randomcolorscheme_background = "dark"
 '''
 ```
 
