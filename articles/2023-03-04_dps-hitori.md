@@ -59,8 +59,8 @@ return {
 }
 ```
 
-設定部分は特に設定しなくてもデフォルト設定があるので不要です。
-`g:hitori_blacklist_patterns` だけは設定したほうがいいかもです。
+デフォルト設定があるので特に設定は不要です。
+`g:hitori_blacklist_patterns` だけは設定したほうがいいかもしれません。
 
 
 ## ラップコマンド `hitori` ！
@@ -87,5 +87,16 @@ deno install --allow-net --allow-run --allow-read --name hitori https://raw.gith
 
 `hitori` コマンドがインストールされるので、以降は `hitori` を実行すれば複数の `Neovim` が起動されるのを防ぐことができます。
 
+---
 
+`Windows` で `gvim` を使用していた時は `--remote-tab-silent` とかがあったので全然問題なかったのですが、いざ `Neovim` に乗り換えると使えなく・・・。
+ただ、このプラグイン (denops.vim のおかげ) で `Windows` でも `Neovim` に乗り換えることが無事にできました。
+`Windows` ではこのプラグインで `nvim-qt` を使用しています。
+
+---
+
+#### 参考
+
+- [mhinz/neovim-remote: Support for --remote and friends.](https://github.com/mhinz/neovim-remote)
+- [thinca/vim-singleton: Uses Vim with singleton.](https://github.com/thinca/vim-singleton)
 
