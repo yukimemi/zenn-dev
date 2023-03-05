@@ -3,7 +3,7 @@ title: "denops.vim で neovim-remote 代替 !"
 emoji: "🐜"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vim", "deno", "denops", "neovim"]
-published: false
+published: true
 ---
 
 またまた [denops.vim](https://github.com/vim-denops/denops.vim) で `plugin` 作成しました！
