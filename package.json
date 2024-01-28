@@ -6,7 +6,7 @@
   "author": "yukimemi <yukimemi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "zenn-cli": "^0.1.150"
+    "zenn-cli": "^0.1.151"
   },
   "scripts": {
     "preview": "zenn preview",
