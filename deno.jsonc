@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "preview": "deno run -A --unstable-fs npm:zenn-cli@latest preview"
+  }
+}
