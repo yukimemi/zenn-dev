@@ -51,6 +51,8 @@ if ($env:NVIM) {
 
 二段階に分けたことで、「今どちらのノーマルモード（シェル or Neovim）にいるのか」を判別する必要があります。これを Neovim 側の `autocmd` で視覚的にサポートします。
 
+![Neovim terminal double esc](img/neovim-terminal-double-esc.gif)
+
 ```lua
 -- Terminal-Normal モード（Neovim 制御下）になった時だけ枠線を赤く光らせる
 vim.api.nvim_create_autocmd("TermLeave", {
